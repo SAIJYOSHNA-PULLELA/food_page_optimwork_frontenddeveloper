@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menu</h1>
+        <div id="menu-list"></div>
+        <h2>Your Cart</h2>
+        <ul id="cart-list"></ul>
+        <p class="table">Total Price: $<span id="total-price">0.00</span></p>
+        <!-- Input for Table Number -->
+        <label for="table-number" >Table Number:</label>
+        <input type="text" id="table-number" placeholder="Enter your table number">
+        <label for="date" >Date:</label>
+        <input type="text" id="date" placeholder="Enter date">
+        <button id="place-order">Place order</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
